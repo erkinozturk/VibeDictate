@@ -1,0 +1,40 @@
+{
+  "hotkey": "KEY_RIGHTCTRL",
+  "cancel_key": "KEY_ESC",
+  "tap_threshold_ms": 250,
+  "double_tap_window_ms": 350,
+  "max_handsfree_seconds": 300,
+  "min_recording_ms": 350,
+  "stop_tail_ms": 300,
+  "language": "auto",
+  "whisper": {
+    "bin": "",
+    "model": "~/.local/share/vibedictate/models/ggml-small.bin",
+    "threads": 0,
+    "extra_args": []
+  },
+  "llm": {
+    "enabled": false,
+    "url": "http://127.0.0.1:11434/api/generate",
+    "model": "qwen2.5:3b",
+    "timeout_s": 20,
+    "prompt": "The text below came from speech dictation. Remove only filler words and hesitation sounds, and fix punctuation and capitalization. Keep the original language of the text. Do NOT change the meaning, summarize, rewrite, or add comments. Return only the corrected text, nothing else.\n\n"
+  },
+  "output": {
+    "method": "paste",
+    "paste_keycodes": [
+      29,
+      47
+    ],
+    "restore_clipboard": false,
+    "type_delay_ms": 8,
+    "paste_delay_ms": 120
+  },
+  "notify": true,
+  "notify_progress": true,
+  "sound": false,
+  "keep_wav": false,
+  "tray": {
+    "enabled": true
+  }
+}

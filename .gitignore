@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# whisper modelleri (setup.sh indiriyor, ~0.5-1.6 GB)
+*.bin
+models/
+
+# kaynaktan derlenen whisper.cpp
+whisper.cpp/
+
+# sanal ortamlar
+.venv/
+venv/
+env/
+
+# yerel ayarlar ve kayit artiklari
+config.json
+*.wav
+*.log

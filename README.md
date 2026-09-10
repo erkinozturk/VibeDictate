@@ -1,4 +1,4 @@
-# vibedictate
+# VibeDictate
 
 **Türkçe:** [README.tr.md](README.tr.md)
 

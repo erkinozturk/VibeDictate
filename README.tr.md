@@ -1,4 +1,4 @@
-# vibedictate
+# VibeDictate
 
 **English:** [README.md](README.md)
 
